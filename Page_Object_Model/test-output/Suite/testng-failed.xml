@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers"/>
+  <parameter name="Browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Functionaltesting.Sprint1">
+        <methods>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="launchbrowser"/>
+          <include name="Testcase12"/>
+        </methods>
+      </class> <!-- Functionaltesting.Sprint1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
